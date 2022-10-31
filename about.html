@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tour:About Us</title>
+
+<!-- =========================
+     STYLESHEETS
+============================== -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/dropkick.css" type="text/css">  <!-- jquary droopdwn -->
+<link rel="stylesheet" href="css/hover.css">
+<link rel="stylesheet" href="css/animate.min.css"> <!-- animation -->
+<link rel="stylesheet" href="css/style.css">
+
+<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="css/ie.css" />
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+<![endif]-->
+
+
+</head>
+
+<body>
+
+<!--swipe menu-->
+<div class="swipe collapse parallax">
+	<div class="swipe-menu">
+	    <ul>
+			<li><a href="index.html">Home</a></li>
+			<li class="parent"><a href="javascript:void(0);">Commendation <i aria-hidden="true" class="fa fa-sort-desc fa-2 menu-droop"></i></a>
+				<ul>
+	    			<li><a href="team.html">Submenu 1</a></li>
+	    			<li><a href="#">Submenu 2</a></li>
+	    			<li><a href="#">Submenu 3</a></li>
+	    			<li><a href="#">Submenu 4</a></li>
+	    		</ul>
+			</li>
+			<li><a class="page-scroll" href="about.html">About Us</a></li>
+			<li><a class="page-scroll" href="package-details.html">Plan Your Trip</a></li>
+			<li><a href="">Enquiry</a></li>
+			<li><a class="page-scroll" href="#contact-us">Contact Us</a></li>
+		</ul>   	   
+	</div>	
+</div>
+<!--complete swipe menu-->
+<header id="header" class="parallax fixed-top">
+	<div class="top-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="logo">
+						<img src="images/logo.jpg" alt="logo">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="top-header-right">
+						<div class="top-header-right-inner">
+							<ul>
+								<li>
+									<div class="language-droopdown">
+										<i aria-hidden="true" class="fa fa-globe fa-2"></i>
+										<select id="language-dropdown">
+							              <option>English</option>
+							              <option>option1</option>
+							              <option>option2</option>
+							              <option>option3</option>
+							            </select>
+									</div>
+								</li>
+								<li>
+									<div class="signup">
+										<a href="">SIGN UP / IN</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="navbar-toggle swipe-control" type="button">
+		    <span class="sr-only">Toggle navigation</span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		</button>
+	</div>
+	<div class="bottom-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="main-menu">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li class="parent"><a href="javascript:void(0);">Commendation <i aria-hidden="true" class="fa fa-sort-desc fa-2 menu-droop"></i></a>
+								<ul>
+					    			<li><a href="team.html">Submenu 1</a></li>
+					    			<li><a href="#">Submenu 2</a></li>
+					    			<li><a href="#">Submenu 3</a></li>
+					    			<li><a href="#">Submenu 4</a></li>
+					    		</ul>
+							</li>
+							<li><a class="page-scroll" href="about.html">About Us</a></li>
+							<li><a class="page-scroll" href="package-details.html">Plan Your Trip</a></li>
+							<li><a class="page-scroll" href="#">Enquiry</a></li>
+							<li><a class="page-scroll" href="#contact-us">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="header-contact">
+						<div class="header-contact-inner">
+							<p><i aria-hidden="true" class="fa fa-phone fa-2"></i>Call Us: <a href="">+12 34 567890</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="content">
+	<section id="banner" class="about-banner parallax">
+		<div class="about-banner-wrapper">
+			<div class="banner-inner abou-us-banner">
+				<ul id="about-banner">
+					<li class="fix about-banner-inners">
+						<img src="images/about-banner.jpg" alt="banner1.jpg">
+					</li>
+				</ul>
+			</div>
+			<div class="banner-content-wrapper about-banner-content-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="banner-content">
+								<h1 class="wow animated bounceInLeft" data-wow-duration="2s" data-wow-delay="0.15s">Tour With Tour Packer</h1>
+								<h5 class="wow animated bounceInRight" data-wow-delay="0.15s">visit Rajasthan, Delhi, Bihar, or beyond !</h5>
+								<form onSubmit="return validateForm(this,'ajax')" method="post" action="#" class="tour-search animated bounceInUp" data-wow-duration="2s" data-wow-delay="0.15s">
+									<div class="form-group">
+										<div class="destination destination-palce">
+											<select id="place-droopdown">
+												<option>Chose a Destination</option>
+												<option>Rajasthan</option>
+												<option>Delhi</option>
+												<option>Bihar</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="destination">
+											<select id="month-droopdown">
+												<option>Chose a Departure Month</option>
+												<option>January</option>
+												<option>February</option>
+												<option>March</option>
+												<option>April</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="destination">
+											<select id="year-dropdown">
+												<option>Chose a Departure Year</option>
+												<option>January</option>
+												<option>February</option>
+												<option>March</option>
+												<option>April</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="destination">
+											<button type="submit" class="btn btn-submit location-btn hvr-rectangle-out">SEARCH</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about-us">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 col-large-width">
+					<div class="about-heading">
+						<span class="wow animated bounceInUp animated" data-wow-duration="2s" data-wow-delay="0.15s">ABOUT US</span>
+						<div class="about-border"></div>
+						<div class="about-border-second"></div>
+					</div>
+					<div class="abou-us-content">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make.</p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+						<div class="about-points">
+							<p class="wow animated fadeInUp" data-wow-duration="2s" data-wow-delay="0.15s"> >&nbsp;&nbsp;Lorem Ipsum is simply dummy text</p>
+							<p class="wow animated fadeInUp" data-wow-duration="2s" data-wow-delay="0.15s"> >&nbsp;&nbsp;Lorem Ipsum is simply</p>
+							<p class="wow animated fadeInUp" data-wow-duration="2s" data-wow-delay="0.15s"> >&nbsp;&nbsp;Lorem Ipsum is simply dummy text to pritnt</p>
+							<p class="wow animated fadeInUp" data-wow-duration="2s" data-wow-delay="0.15s"> >&nbsp;&nbsp;Lorem Ipsum is simply dummy text</p>
+							<p class="wow animated fadeInUp" data-wow-duration="2s" data-wow-delay="0.15s"> >&nbsp;&nbsp;Lorem Ipsum is simply dummy</p>
+							<p class="wow animated fadeInUp" data-wow-duration="2s" data-wow-delay="0.15s"> >&nbsp;&nbsp;Lorem Ipsum is simply</p>
+							<p class="wow animated fadeInUp" data-wow-duration="2s" data-wow-delay="0.15s"> >&nbsp;&nbsp;Lorem Ipsum is simply dummy text</p>
+							<p class="wow animated fadeInUp" data-wow-duration="2s" data-wow-delay="0.15s"> >&nbsp;&nbsp;Lorem Ipsum is simply dummy text typetest industry</p>
+							<p class="wow animated fadeInUp" data-wow-duration="2s" data-wow-delay="0.15s"> >&nbsp;&nbsp;Lorem Ipsum is simply dummy text</p>
+							<p class="wow animated fadeInUp" data-wow-duration="2s" data-wow-delay="0.15s"> >&nbsp;&nbsp;Lorem Ipsum is simply dummy text</p>
+						</div>
+						<div class="about-points-heading">
+							<h5>Lorem ipsum dummy</h5>
+						</div>
+						<div class="about-list-item-content wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.15s">
+							<ul>
+								<li><a href=""><i aria-hidden="true" class="fa fa-circle"></i>Lorem Ipsum is simply dummy text</a></li>
+								<li><a href=""><i aria-hidden="true" class="fa fa-circle"></i>Lorem Ipsum is simply dummy</a></li>
+								<li><a href=""><i aria-hidden="true" class="fa fa-circle"></i>Lorem Ipsum is simply dummy</a></li>
+								<li><a href=""><i aria-hidden="true" class="fa fa-circle"></i>Lorem Ipsum is simply dummy</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="about-accordion wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.15s">
+						<div class="personal-details-inner">
+							<div class="personal-details-inner-heading">
+								LOREM IPSUM
+							</div>
+							<div class="accordion">
+								<ul id="accordion">
+									<li class="active">
+				              			<div class="accordion-group">
+				                			<div class="accordion-heading"> 
+				                				<a class="accordion-toggle active" href="javascript:void(0);">OUR SERVICES TO YOU</a> 
+				                			</div>
+				                			<div class="accordion-body">
+				                 				<div class="accordion-inner">
+				                 					<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Nullam convallis euismod mollis.</p>
+				                 				</div>
+				                			</div>
+				              			</div>
+				              		</li>
+				              		<li>
+				              			<div class="accordion-group">
+				                			<div class="accordion-heading"> 
+				                				<a class="accordion-toggle" href="javascript:void(0);">OUR SERVICES TO YOU</a> 
+				                			</div>
+				                			<div class="accordion-body">
+				                 				<div class="accordion-inner">
+				                 					<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Nullam convallis euismod mollis.</p>
+				                 				</div>
+				                			</div>
+				              			</div>
+				              		</li>
+				              		<li>
+				              			<div class="accordion-group">
+				                			<div class="accordion-heading"> 
+				                				<a class="accordion-toggle" href="javascript:void(0);">OUR SERVICES TO YOU</a> 
+				                			</div>
+				                			<div class="accordion-body">
+				                 				<div class="accordion-inner">
+				                 					<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Nullam convallis euismod mollis.</p>
+				                 				</div>
+				                			</div>
+				              			</div>
+				              		</li>
+				              		<li>
+				              			<div class="accordion-group">
+				                			<div class="accordion-heading"> 
+				                				<a class="accordion-toggle" href="javascript:void(0);">OUR SERVICES TO YOU</a> 
+				                			</div>
+				                			<div class="accordion-body">
+				                 				<div class="accordion-inner">
+				                 					<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Nullam convallis euismod mollis.</p>
+				                 				</div>
+				                			</div>
+				              			</div>
+				              		</li>
+				              		<li>
+				              			<div class="accordion-group">
+				                			<div class="accordion-heading"> 
+				                				<a class="accordion-toggle" href="javascript:void(0);">OUR SERVICES TO YOU</a> 
+				                			</div>
+				                			<div class="accordion-body">
+				                 				<div class="accordion-inner">
+				                 					<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Nullam convallis euismod mollis.</p>
+				                 				</div>
+				                			</div>
+				              			</div>
+				              		</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="personal-details wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.15s">
+						<div class="about-points-heading">
+							<h5>Commendation</h5>
+						</div>
+						<p class=" wow slideInRight" data-wow-duration="2s" data-wow-delay="0.15s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+						<div class="personal-details-inner">
+							<div class="personal-details-inner-heading">
+								PERSONAL DETAILS
+							</div>
+							<div class="personal-details-inner-content">
+								<form onsubmit="return validateForm(this,'ajax','error1')" method="post" action="#" class="form-horizontal personal-details-form">
+									<div class="form-group">
+									    <div class="col-sm-2 user-left">
+									      <span class="form-name">*Name:</span>
+									    </div>
+									    <div class="col-sm-10 input-padding">
+									      <input type="text" name="name" class="form-control validate form-control-right">
+									    </div>
+									</div>
+
+									<div class="form-group">
+									    <div class="col-sm-2 user-left">
+									      <span class="form-name">Email Id:</span>
+									    </div>
+									    <div class="col-sm-10 input-padding">
+									      <input type="text" name="email" class="form-control validate form-control-right">
+									    </div>
+									</div>
+
+									<div class="form-group">
+									    <div class="col-sm-2 user-left">
+									      <span class="form-name">*Mobile No:</span>
+									    </div>
+									    <div class="col-sm-10 input-padding">
+									      <input type="text" name="mobile" class="form-control validate form-control-right">
+									    </div>
+									</div> 
+
+									<div class="form-group">
+									    <div class="col-sm-2 user-left">
+									      <span class="form-name">Message:</span>
+									    </div>
+									    <div class="col-sm-10 input-padding">
+									      <textarea name="message" class="form-control validate form-control-right message"></textarea>  
+									    </div>
+									</div>  
+									  
+									<div class="form-group">
+										<div class="col-sm-12 next-btn">
+											<button class="btn personal-btn hvr-rectangle-out wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.15s" type="submit">Submit</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-small-width">
+					<div class="about-us-right">
+						<ul>
+							<li class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.15s">
+								<img src="images/package1.jpeg" alt="">
+								<div class="about-right-text about-right-text-first">
+									LOREM IPSUM
+								</div>
+							</li>
+							<li class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.15s">
+								<img src="images/package1.jpeg" alt="">
+								<div class="about-right-text about-right-text-second">
+									LOREM IPSUM
+								</div>
+							</li>
+							<li class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.15s">
+								<img src="images/package1.jpeg" alt="">
+								<div class="about-right-text about-right-text-third">
+									LOREM IPSUM
+								</div>
+							</li>
+							<li class="wow slideInRight" data-wow-duration="2s" data-wow-delay="0.15s">
+								<img src="images/package1.jpeg" alt="">
+								<div class="about-right-text about-right-text-fourth">
+									LOREM IPSUM
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="booking" class="booking parallax">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="booking-newsletter">
+						<div class="booking-newsletter-left wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.15s">
+							<div class="newsletter-image">
+								<i aria-hidden="true" class="fa fa-envelope-o fa-3"></i>
+							</div>
+							<div class="newsletter-content">
+								<h4>Signup for Newsletter</h4>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+							</div>
+						</div>
+						<div class="booking-newsletter-right wow slideInRight" data-wow-duration="2s" data-wow-delay="0.15s">
+							<div class="search-newsletter">
+								<form action="#" class="" onsubmit="return validateForm(this,'no-ajax')" method="POST">
+	                               <div class="input-group"> 
+	                                  <input type="text" class="form-control validate" name="Subscribe" value="" placeholder="Search for..">
+	                                  <div class="input-group-btn">
+	                                     <button class="btn hvr-rectangle-out" type="submit">SIGNUP<i aria-hidden="true" class="fa fa-long-arrow-right fa-1"></i></button>
+	                                </div>
+	                               </div>
+	                            </form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="we-are" class="we-are parallax">
+		<div class="we-are-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="we-are-inner">
+							<div class="we-are-heading">
+								<h5 class="wow animated bounceInUp animated" data-wow-duration="2s" data-wow-delay="0.15s">WHO WE ARE</h5>
+								<span></span>
+							</div>
+							<div class="we-are-content wow animated fadeInUp animated" data-wow-duration="2s" data-wow-delay="0.15s">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,printing and typesetting industry printing and typesetting industry.</p>
+								<p class="we-are-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								<div class="we-are-socal">
+									<ul>
+										<li><a href=""><i aria-hidden="true" class="fa fa-linkedin-square fa-3"></i></a></li>
+										<li><a href=""><i aria-hidden="true" class="fa fa-facebook-square fa-3"></i></a></li>
+										<li><a href=""><i aria-hidden="true" class="fa fa-twitter-square fa-3"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="map" class="map parallax">
+		<div class="map_section">
+          	<div id="googleMap"></div>
+        </div>
+	</section>
+
+	<section id="contact-us" class="contact-us parallax">
+		<div class="we-are-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="contact-us-inner">
+							<div class="we-are-heading">
+								<h5 class="wow animated bounceInUp animated" data-wow-duration="2s" data-wow-delay="0.15s">CONTACT US</h5>
+								<span></span>
+							</div>
+							<div class="contact-us-form wow animated fadeInUp animated" data-wow-duration="2s" data-wow-delay="0.15s">
+								<div class="contact-us-form-inner">
+									<form onsubmit="return validateForm(this,'ajax','error1')" method="post" action="#" class="form-horizontal">
+
+										<div class="form-group">
+										    <div class="col-sm-12 input-padding">
+										      <input type="text" name="name" class="form-control validate form-control-right" placeholder="Your Name*">
+										    </div>
+										</div>
+
+										<div class="form-group">
+										    <div class="col-sm-12 input-padding">
+										      <input type="text" name="subject" class="form-control form-control-right" placeholder="Subject">
+										    </div>
+										</div> 
+
+										<div class="form-group">
+										    <div class="col-sm-12 input-padding">
+										      <input type="text" name="email" class="form-control validate form-control-right" placeholder="Email*">
+										    </div>
+										</div>
+										<div class="form-group">
+										    <div class="col-sm-12 input-padding">
+										      <textarea name="message" class="form-control validate form-control-right message" placeholder="Message*"></textarea>  
+										    </div>
+										</div>  
+										  
+										<div class="form-group">
+											<div class="col-sm-12">
+												<button class="btn btn-submit hvr-rectangle-out" type="submit">SEND MESSAGE</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+<footer id="footer" class="parallax">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<div class="copy-right">
+					<p class="wow animated bounceInLeft" data-wow-duration="2s" data-wow-delay="0.15s">&copy; 2016 Lawania-adventures.All Right Resurved.
+					</p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<div class="power-by">
+					<div class="power-by-inner wow animated bounceInRight" data-wow-duration="2s" data-wow-delay="0.15s">Powered By : <a href="">RNJ Consultncy Services</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+<!-- JQUERY -->
+<script src="js/jquery.min.1.10.2.js"></script>
+<script src="js/jquery-migrate-1.2.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script defer type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script defer type="text/javascript" src="js/validateform.js"></script>
+<script src="js/jquery.dropkick-min.js"></script><!-- jquary droopdwn -->
+<script src="js/wow.min.js"></script><!-- animation -->
+<script src="js/jquery.parallax.js"></script> <!-- parallax need -->
+<script src="js/jquery.easing.min.js"></script> <!-- parallax need -->
+<script src="js/start.js"></script> <!-- parallax need -->
+<script type="text/javascript" src="js/custom.js"></script>
+
+
+<script type="text/javascript">
+	$('#accordion').find('li.active').children().children('.accordion-body').show();
+	$('#accordion li').click(function(event){
+		if(event.srcElement = event.currentTarget)
+		{
+			if($(this).hasClass('active'))
+			{
+				// $(this).removeClass('active');
+				// $(this).children().children().children('.accordion-toggle').removeClass('active');
+				// $(this).children().children('.accordion-body').stop(true).slideUp();
+			}
+			else
+			{
+				$(this).siblings(0).removeClass('active');
+				$(this).siblings(0).children().children('.accordion-body').stop(true).slideUp();
+				$(this).siblings(0).children().children().children('.accordion-toggle').removeClass('active');
+
+				$(this).addClass('active');
+				$(this).children().children().children('.accordion-toggle').addClass('active');
+				$(this).children().children('.accordion-body').stop(true).slideDown();
+			}
+			event.stopPropagation();
+		}
+	});
+</script>
+
+  <!--  ..... map call.. -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+    var myCenter=new google.maps.LatLng(22.572005, 88.353239);
+      var marker;
+
+      function initialize()
+      {
+      var mapProp = {
+        center:myCenter,
+        zoom:18,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+      var marker=new google.maps.Marker({
+        position:myCenter,
+        animation:google.maps.Animation.BOUNCE
+        });
+
+      marker.setMap(map);
+
+    var infowindow = new google.maps.InfoWindow({
+      content: '<p class="map_heading"> LOCATION</p><p class="border"><span></span></p><p><i class="fa fa-map-marker map-mid fa-3" aria-hidden="true"></i></p><p class="map_text_heading">COMPANY ADDRESS</p><p class="map_text_content">1100 Long Address Line<br>Another address line</p><p class="map_deg">45&deg;21270252|34&deg;21270252</p><p class="border-bottom"></p>',
+      });
+
+     infowindow.open(map,marker);
+      }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<!--  ..... map call end.... -->
+
+
+<!-- ie palecholder showing js -->
+<script type="text/javascript">
+	if(navigator.userAgent.indexOf("MSIE") > 0 ){
+	$(function() {
+	var input = document.createElement("input");
+	if(('placeholder' in input)==false) {
+	$('[placeholder]').focus(function() {
+	var i = $(this);
+	if(i.val() == i.attr('placeholder')) {
+	i.val('').removeClass('placeholder');
+	if(i.hasClass('password')) {
+	i.removeClass('password');
+	this.type='password';
+	}
+	}
+	}).blur(function() {
+	var i = $(this);
+	if(i.val() == '' || i.val() == i.attr('placeholder')) {
+	if(this.type=='password') {
+	i.addClass('password');
+	this.type='text';
+	}
+	i.addClass('placeholder').val(i.attr('placeholder'));
+	}
+	}).blur().parents('form').submit(function() {
+	$(this).find('[placeholder]').each(function() {
+	var i = $(this);
+	if(i.val() == i.attr('placeholder'))
+	i.val('');
+	})
+	});
+	}
+	});
+	}
+</script>
+
+
+</body>
+</html>

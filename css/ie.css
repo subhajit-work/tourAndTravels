@@ -1,0 +1,124 @@
+
+/*submenu*/
+.main-menu ul li ul{
+   opacity: 0; visibility: hidden; filter: alpha(opacity=0); 
+}
+.main-menu ul li ul li ul{
+	opacity: 0;
+	 visibility: hidden; 
+	 filter: alpha(opacity=0);
+}
+.main-menu ul li:hover > ul
+{
+ opacity: 1 !important; visibility: visible; filter: none !important;
+}
+.main-menu ul li ul li:hover > ul{
+	opacity: 1 !important; visibility: visible; filter: none !important;
+}
+/*submenu end*/
+
+
+.main-menu ul li ul
+{	
+	top: 28px!important;
+	padding: 0 10px!important;
+	z-index: 9999999!important;
+}
+.shudule-heading h4:before,.our-team-heading h4:before
+{
+	display: none!important;
+}
+.our-team-heading h4
+{
+	font-size: 14px!important;
+	width: 90%!important;
+}
+.contact-img
+{
+	width: 20%!important;
+}
+.contact-contents
+{
+	width: 80%!important;
+}
+.fa.fa-map-marker.fa-2, .fa.fa-phone.fa-2, .fa.fa-pencil.fa-2
+{
+	padding: 12px 20px!important;
+}
+.sub-point-image
+{
+	width: 30%;
+	float: left;
+}
+.sub-point-content
+{
+	width: 70%;
+	float: left;
+}
+.search .fa.fa-search.fa-2
+{
+	z-index: 999999!important;
+}
+/*.banner
+{
+	height: 480px;
+}
+.banner-left
+{
+	display: block!important;
+	z-index: 9999!important;
+	visibility: visible!important;
+	opacity: 1!important;
+}*/
+
+.banner-inner .bx-viewport
+{
+height: 450px!important;
+}
+.search .fa.fa-search.fa-2
+{
+	z-index: 999999!important;
+	position: relative!important;
+}
+.search input.form-control
+{
+	padding-right: 0px!important;
+}
+
+.input-group-btn:last-child > .btn
+{
+	margin: 0 -10px 0 0;
+}
+.main-menu
+{
+	width: 75%;
+}
+.header-contact
+{
+	width: 25%
+}
+.main-menu ul
+{
+	padding: 8px 0 0 0;
+}
+.service-image
+{
+	width: 10%;
+}
+.services-content
+{
+	width: 90%;
+}
+.booking-image,.newsletter-image
+{
+	width: 15%;
+}
+.booking-image-description,.newsletter-content
+{
+	width: 85%;
+}
+textarea.message
+{
+	width: 100%;
+}
+
